@@ -251,3 +251,26 @@ input[type=submit] {
     margin-top: -1%;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .auth-image {
+    width: 100%;
+  }
+
+  #logo {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  nav {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 16%;
+    padding-bottom: 2%;
+  }
+
+  .work {
+    width: 100%;
+  }
+}
